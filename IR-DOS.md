@@ -1,6 +1,6 @@
 # Incident Report - DNS
 
-A short incident report derived from the analysis of DNS and ICMP traffic in transit from a network protocol analyzer tool (tcpdump). This report was part of the coursework for the Google Cybersecurity Professional Certificate.
+A short incident report derived from the analysis of data from a packet sniffer that captured data packets in transit to and from the company web server. This report was part of the coursework for the Google Cybersecurity Professional Certificate.
 
 ### Scenario
 
