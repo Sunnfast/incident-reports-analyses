@@ -27,3 +27,9 @@ When website visitors try to establish a connection with the web server, a three
 During a SYN flood atack, a malicious actor will send a large number of SYN packets simultaneously. This rapidly burns through the server's available resources  to reserve for the connection. As as result, there are no server resource remaining for legitimate TCP connection requests. Here, the log data is consistent with a SYN flood attack: the web server appears to have burned through all of its resources to process all the SYN requests from a particular singular unfamiliar IP addresss. The web server has no resources left to open any new connections to new visitors, thus new visitors keep receiving a connection timeout error message instead.
 
 ## Mitigation Strategies
+
+The most straight forward defense has already been utilized here to some benefit: denying specific IP addresses. Although this measure would likely not a be a permanent solution against a more sophisticated atatcker who could spoof a new IP address and resume the DOS attack from there.
+
+Rate limiting may also be a solution to consider. This is when the amount of traffic to specific network interface controller (NIC) is limited. This can be done on the hardware and the software level as well. Rate limiting could be implemented on switches and routers presuming this company's hardware hvee those capabilities. Limiting the number of API calls (where applicable) for a visitor ont the web server over a specific duration (*e.g. 60 requests per minute). However, the issue still remains that the router itself could still be overwhelmed and a victim of DOS attack and go down.
+
+Lastly, upstream filtering through a provider like Cloudflare can also provide strong protection against DoS requests so that the requests are filtered out before it reaches the target network.
