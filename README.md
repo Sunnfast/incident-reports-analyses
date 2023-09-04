@@ -1,6 +1,6 @@
 # Incident Reports & Analyses
 
-Currently features three different sample incident reports written as part of the Google Cybersecurity Professional Certificate:
+Currently features four different sample incident reports and analyses written as part of the Google Cybersecurity Professional Certificate:
 * DNS server down
 * DOS attack (SYN flood)
 * brute force attack
