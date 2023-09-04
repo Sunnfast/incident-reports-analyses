@@ -4,4 +4,5 @@ Currently features three different sample incident reports written as part of th
 * DNS server down
 * DOS attack (SYN flood)
 * brute force attack
+* post-breach network hardening analysis
 
