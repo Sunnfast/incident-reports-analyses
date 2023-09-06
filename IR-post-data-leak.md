@@ -1,4 +1,4 @@
-# title
+# Post-Incident Report: Data Leak
 A set of recommendations for security hardening practices to be implemented in an organization in response to recent data leak. This analysis was part of the coursework for the Google Cybersecurity Professional Certificate.
 
 ### Incident Summary [excerpt]
