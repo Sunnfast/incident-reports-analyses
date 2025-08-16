@@ -10,7 +10,7 @@ You are tasked with analyzing the situation and determining which network protoc
 
 ## Summary
 
-The UDP protocol reveals that the DNS server is down or unreachable. This was evinced by the logs from the network scan as the ICMP echo reply reutnred the error message, `udp port 53 unreacahble` and port 53 is typically used for DNS services. Here, it is likely the DNS server is not responding. It coud also be an indicator of a malicious attack on the DNS server. Lastly, it could be due to a firewall misconfiguration.
+The UDP protocol reveals that the DNS server is down or unreachable. This was evinced by the logs from the network scan as the ICMP echo reply reutnred the error message, `udp port 53 unreachable` and port 53 is typically used for DNS services. Here, it is likely the DNS server is not responding. It coud also be an indicator of a malicious attack on the DNS server. Lastly, it could be due to a firewall misconfiguration.
 
 ## Analysis & Potential Causes
 
