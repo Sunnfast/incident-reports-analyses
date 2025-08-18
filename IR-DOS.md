@@ -1,4 +1,4 @@
-# Incident Report - DNS
+# Incident Report - Denial of Service (DoS)
 
 A short incident report derived from the analysis of data from a packet sniffer that captured data packets in transit to and from the company web server. This report was part of the coursework for the Google Cybersecurity Professional Certificate.
 
